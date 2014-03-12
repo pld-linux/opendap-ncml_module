@@ -1,0 +1,10 @@
+--- ncml_module-1.2.3/NCMLContainer.cc.orig	2013-10-01 23:36:10.000000000 +0200
++++ ncml_module-1.2.3/NCMLContainer.cc	2014-03-12 14:08:06.091184102 +0100
+@@ -34,6 +34,7 @@
+ #include <cerrno>
+ #include <cstdlib>
+ #include <cstring>
++#include <unistd.h>
+ 
+ using std::ofstream ;
+ using std::endl ;
