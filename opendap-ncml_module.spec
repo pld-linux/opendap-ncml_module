@@ -5,27 +5,27 @@
 Summary:	NCML module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł NCML dla serwera danych OPeNDAP
 Name:		opendap-ncml_module
-Version:	1.2.3
+Version:	1.2.4
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/ncml_module-%{version}.tar.gz
-# Source0-md5:	da7a6dbc90e3142ea36f099ccdff9fb3
+# Source0-md5:	06c0b98a340193415dff1f44e7d8b474
 Patch0:		%{name}-includes.patch
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.61
 BuildRequires:	automake
-%{?with_tests:BuildRequires:	bes >= 3.9.0}
-BuildRequires:	bes-devel >= 3.9.0
+%{?with_tests:BuildRequires:	bes >= 3.13.0}
+BuildRequires:	bes-devel >= 3.13.0
 BuildRequires:	curl-devel
-BuildRequires:	libdap-devel >= 3.11.0
+BuildRequires:	libdap-devel >= 3.13.0
 BuildRequires:	libicu-devel >= 3.6
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool >= 2:1.5
 BuildRequires:	perl-base
 BuildRequires:	pkgconfig
-Requires:	bes >= 3.9.0
-Requires:	libdap >= 3.11.0
+Requires:	bes >= 3.13.0
+Requires:	libdap >= 3.13.0
 Requires:	libicu >= 3.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
