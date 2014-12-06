@@ -6,11 +6,11 @@ Summary:	NCML module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł NCML dla serwera danych OPeNDAP
 Name:		opendap-ncml_module
 Version:	1.2.4
-Release:	2
+Release:	3
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/ncml_module-%{version}.tar.gz
-# Source0-md5:	06c0b98a340193415dff1f44e7d8b474
+# Source0-md5:	959411980d1653a384ef3a0e37ed2447
 Patch0:		%{name}-includes.patch
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.61
