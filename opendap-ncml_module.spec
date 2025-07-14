@@ -45,7 +45,7 @@ tworzenie agregatów joinNew i union innych zbiorów danych.
 
 %prep
 %setup -q -n ncml_module-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 # rebuild autotools for -as-needed to work
